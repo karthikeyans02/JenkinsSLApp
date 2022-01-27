@@ -1,11 +1,13 @@
 @Library('standardPipeline@main') _
 
+
+
 node {
     stage('build'){
      
-        standardPipeline{
+        standardPipeline([
             name = 'karthi'
             value = 'Success'
+        ])
         }
-    }
 }

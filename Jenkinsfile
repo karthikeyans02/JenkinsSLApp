@@ -10,5 +10,11 @@
 // }
 
 
-config = [name: 'Karthi', value: 'Success']
-standardPipeline(config)
+// config = [name: 'Karthi', value: 'Success']
+// standardPipeline([name: 'Karthi', value: 'Success'])
+
+standardPipeline {
+    Name = 'Karthi'
+    Value = 'Success'
+
+}
